@@ -1,15 +1,15 @@
 package handlers
 
 import (
-	"boilerplate/database"
-	"boilerplate/models"
+	//"boilerplate/database"
+	//"boilerplate/models"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/gofiber/fiber/v2/utils"
+	//"github.com/gofiber/fiber/v2/utils"
 )
 
 // UserList returns a list of users
-func UserList(c *fiber.Ctx) error {
+/**func UserList(c *fiber.Ctx) error {
 	users := database.Get()
 
 	return c.JSON(fiber.Map{
@@ -31,7 +31,7 @@ func UserCreate(c *fiber.Ctx) error {
 		"success": true,
 		"user":    user,
 	})
-}
+}**/
 
 // NotFound returns custom 404 page
 func NotFound(c *fiber.Ctx) error {
